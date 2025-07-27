@@ -47,7 +47,7 @@ body {
     font-size: large;
 }
 
-ul {
+#links {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -79,9 +79,9 @@ li a:hover {
     text-underline-offset: 8px;
 }
 
-h1 {
+/* h1 {
     display: inline-block;
-}
+} */
 
 .socials {
     display: flex;
@@ -145,4 +145,42 @@ h1 {
 .socials a:hover::after {
     transform: translateY(-45px) rotate(0);
     opacity: 1;
+}
+
+hr{
+    border: 2px solid aquamarine;
+}
+
+#intro {
+    /* position: relative; */
+    text-align: center;
+}
+
+.resume {
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.tab1 {
+        display: inline-block;
+        margin-left: 650px;
+}
+
+.tab2 {
+        display: inline-block;
+        margin-left: 500px;
+}
+
+.tab3 {
+    display: inline-block;
+    margin-left: 840px;
+}
+
+.tab4 {
+    display: inline-block;
+    margin-left: 860px;
+}
+
+ul li  {
+    padding: 5px 0px;
 }
